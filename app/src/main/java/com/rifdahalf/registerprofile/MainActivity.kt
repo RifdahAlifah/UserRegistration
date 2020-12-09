@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             val inputEmail = et_email.text.toString().trim()
             val inputPhone = et_no_telepon.text.toString().trim()
             val inputPassword = et_password.text.toString().trim()
+            val inputConfirmPassword = et_confirmpassword.text.toString().trim()
 
             when {
                 inputUsername.isEmpty() -> {
@@ -38,6 +39,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 }
                 inputPassword.isEmpty() -> {
                     et_password.error = "Must be filled"
+                }
+                inputConfirmPassword.isEmpty() -> {
+                    et_confirmpassword.error = "Must be filled"
                 }
 
                 else -> {
