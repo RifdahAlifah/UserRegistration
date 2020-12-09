@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IsiRegisterActivity"
+    android:background="@drawable/bg_data2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_personal_data"
+        android:layout_marginTop="@dimen/_200dp"
+        android:textSize="@dimen/_30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/brown2"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_username2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:text="@string/text_username"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/brown2"/>
+
+    <TextView
+        android:id="@+id/tv_isi_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_170dp"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/brown2"/>
+
+    <TextView
+        android:id="@+id/tv_email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginBottom="@dimen/_300dp"
+        android:text="@string/text_email"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_username2"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/brown2"/>
+
+    <TextView
+        android:id="@+id/tv_isi_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_170dp"
+        android:layout_marginBottom="@dimen/_280dp"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_isi_username"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/brown2"/>
+
+    <TextView
+        android:id="@+id/tv_no_telp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_50dp"
+        android:layout_marginBottom="230dp"
+        android:text="@string/text_no_telp"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_email2"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/brown2"/>
+
+    <TextView
+        android:id="@+id/tv_isi_no_telp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="230dp"
+        android:textSize="@dimen/_18sp"
+        android:layout_marginStart="@dimen/_170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_isi_email"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/brown2"/>
+
+    <TextView
+        android:id="@+id/tv_password2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_password"
+        android:textSize="@dimen/_18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="@dimen/_50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_no_telp2"
+        android:layout_marginBottom="@dimen/_180dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/brown2"/>
+
+    <TextView
+        android:id="@+id/tv_isi_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_18sp"
+        android:layout_marginStart="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_isi_no_telp"
+        android:layout_marginBottom="@dimen/_180dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/brown2"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
